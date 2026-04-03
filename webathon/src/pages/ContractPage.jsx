@@ -5,7 +5,7 @@ import Navbar from "../Components/Navbar";
 const ContractPage = () => {
   const [contract, setContract] = useState({
     project: "AI Resume Builder",
-    buyer: "Sai Charan",
+    buyer: "Antoni Nowicki",
     seller: "John Doe",
     amount: 1000,
     terms:

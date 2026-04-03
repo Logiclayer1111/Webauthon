@@ -37,7 +37,7 @@ function App() {
         <Route path="/certification" element={<Certification />} />
         <Route path="/time" element={<TimeLine />} />
         <Route path="/createproject" element={<CreateProject />} />
-        <Route path="/review" element={<ReviewForm kname="Sai Charan" />} />
+        <Route path="/review" element={<ReviewForm kname="Antoni Nowicki" />} />
         <Route path="/myprojects" element={<MyProjects />} />
       </Routes>
     </Router>
