@@ -18,7 +18,7 @@ const addJob = expHandler(async (req, res) => {
 
   await jobsCollection.insertOne({ job });
 
-  return res.send({ status: 200, message: "Added successfully" });
+  return res.send({ status: 200, message: "Added successfully." });
 });
 
 const getJobs = expHandler(async (req, res) => {
